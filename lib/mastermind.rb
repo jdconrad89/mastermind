@@ -1,6 +1,4 @@
 require_relative "computer"
-# require_relative "intermediate"
-# require_relative "expert"
 require_relative "output_statements"
 require "pry"
 
@@ -23,6 +21,8 @@ class Mastermind
    ███   ███   ███   ███    ███    ▄█    ███     ███       ███    ███   ███    ███ ███   ███   ███ ███  ███   ███ ███   ▄███
     ▀█   ███   █▀    ███    █▀   ▄████████▀     ▄████▀     ██████████   ███    ███  ▀█   ███   █▀  █▀    ▀█   █▀  ████████▀
                                                                         ███    ███                                           "
+
+
   puts OutputStatements.welcome
   input = gets.chomp.downcase
   until input == "q" || input == "quit"

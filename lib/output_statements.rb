@@ -26,7 +26,7 @@ all of Humanity! Would you like to (p)lay or (q)uit?"
 
   def self.start_game_intermediate
     puts "I have generated a beginner sequence with six elements made up of : (r)ed
-(g)reen, (y)ellow, and (w)hite. Use (q)uit at any time to end the game. What would you
+(g)reen, (b)lue, (y)ellow, and (w)hite. Use (q)uit at any time to end the game. What would you
 like your first guess to be?"
   end
 
