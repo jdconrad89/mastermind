@@ -25,15 +25,15 @@ all of Humanity! Would you like to (p)lay or (q)uit?"
   end
 
   def self.start_game_intermediate
-    puts "I have generated a beginner sequence with four elements made up of : (r)ed /n
-       (g)reen, (y)ellow, and (w)hite. Use (q)uit at any time to end the game. What would you /n
-       like your first guess to be?"
+    puts "I have generated a beginner sequence with six elements made up of : (r)ed
+(g)reen, (y)ellow, and (w)hite. Use (q)uit at any time to end the game. What would you
+like your first guess to be?"
   end
 
   def self.start_game_expert
-    puts "I have generated a beginner sequence with four elements made up of : (r)ed /n
-     (g)reen, (y)ellow, (w)hite, (o)range. Use (q)uit at any time to end the game. What would you /n
-     like your first guess to be?"
+    puts "I have generated a beginner sequence with 8 elements made up of : (r)ed
+(g)reen, (y)ellow, (w)hite, (o)range. Use (q)uit at any time to end the game. What would you
+like your first guess to be?"
   end
 
   def self.game_ended

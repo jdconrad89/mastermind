@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.10.0/application.js' type='text/javascript'></script>    
     <link href='./assets/0.10.0/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_yellow.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_red.png" />
     <link rel="icon" type="image/png" href="./assets/0.10.0/favicon.png" />
   </head>
   
@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-10-11T08:29:17-06:00">2016-10-11T08:29:17-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-10-12T20:34:44-06:00">2016-10-12T20:34:44-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="yellow">88.0%</span></span>
+    (<span class="covered_percent"><span class="red">47.69%</span></span>
      covered at
      <span class="covered_strength">
-       <span class="green">
-         1.1
+       <span class="red">
+         0.81
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>1</b> files in total.
-    <b>25</b> relevant lines. 
-    <span class="green"><b>22</b> lines covered</span> and
-    <span class="red"><b>3</b> lines missed </span>
+    <b>2</b> files in total.
+    <b>65</b> relevant lines. 
+    <span class="green"><b>31</b> lines covered</span> and
+    <span class="red"><b>34</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -51,13 +51,23 @@
     <tbody>
       
       <tr>
-        <td class="strong"><a href="#a8313212e957f3894ae2c42e97c36c09431ee1e5" class="src_link" title="lib/computer.rb">lib/computer.rb</a></td>
-        <td class="yellow strong">88.0 %</td>
-        <td>63</td>
-        <td>25</td>
-        <td>22</td>
-        <td>3</td>
-        <td>1.1</td>
+        <td class="strong"><a href="#821b7df8a787b80fd3ea6d7a689a45b65070c03b" class="src_link" title="lib/beginner.rb">lib/beginner.rb</a></td>
+        <td class="red strong">46.0 %</td>
+        <td>96</td>
+        <td>50</td>
+        <td>23</td>
+        <td>27</td>
+        <td>0.9</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#3c23a4781eda05588a1e6b0b9658ff0d68234194" class="src_link" title="lib/output_statements.rb">lib/output_statements.rb</a></td>
+        <td class="red strong">53.33 %</td>
+        <td>43</td>
+        <td>15</td>
+        <td>8</td>
+        <td>7</td>
+        <td>0.5</td>
       </tr>
       
     </tbody>
@@ -76,30 +86,30 @@
     
       <div class="source_files">
       
-        <div class="source_table" id="a8313212e957f3894ae2c42e97c36c09431ee1e5">
+        <div class="source_table" id="821b7df8a787b80fd3ea6d7a689a45b65070c03b">
   <div class="header">
-    <h3>lib/computer.rb</h3>
-    <h4><span class="yellow">88.0 %</span> covered</h4>
+    <h3>lib/beginner.rb</h3>
+    <h4><span class="red">46.0 %</span> covered</h4>
     <div>
-      <b>25</b> relevant lines. 
-      <span class="green"><b>22</b> lines covered</span> and
-      <span class="red"><b>3</b> lines missed.</span>
+      <b>50</b> relevant lines. 
+      <span class="green"><b>23</b> lines covered</span> and
+      <span class="red"><b>27</b> lines missed.</span>
     </div>
   </div>
   
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">require_relative &quot;output_statements&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="2">
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">require &quot;kimble&quot;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="3">
@@ -108,361 +118,835 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">class Computer</code>
+          <code class="ruby">class Beginner</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
+        <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
-          <code class="ruby">attr_reader :colors_beginner,</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby">            :colors_intermediate,</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby">            :colors_expert,</code>
+          <code class="ruby">  include OutputStatements</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="8">
           
           
-          <code class="ruby">            :generated_colors,</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">            # :generated_colors_intermediate,</code>
+          <code class="ruby">  attr_accessor :colors_beginner,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">            # :generated_colors_expert,</code>
+          <code class="ruby">                :generated_colors,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="11">
           
           
-          <code class="ruby">            :correct_guesses,</code>
+          <code class="ruby">                :correct_guesses,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
           
           
-          <code class="ruby">            :response</code>
+          <code class="ruby">                :response,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="13">
           
           
+          <code class="ruby">                :guess,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">                :count,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">                :start</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="14">
+        <li class="covered" data-hits="1" data-linenumber="17">
           <span class="hits">1</span>
           
           <code class="ruby">  def initialize</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="15">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="18">
+          <span class="hits">4</span>
           
           <code class="ruby">    @colors_beginner = [&quot;R&quot;, &quot;Y&quot;, &quot;B&quot;, &quot;G&quot;]</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="16">
-          <span class="hits">2</span>
-          
-          <code class="ruby">    @colors_intermediate = [&quot;R&quot;, &quot;Y&quot;, &quot;B&quot;, &quot;G&quot;, &quot;W&quot;]</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="17">
-          <span class="hits">2</span>
-          
-          <code class="ruby">    @colors_expert = [&quot;R&quot;, &quot;Y&quot;, &quot;B&quot;, &quot;G&quot;, &quot;W&quot;, &quot;O&quot;]</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="18">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="19">
+          <span class="hits">4</span>
           
           <code class="ruby">    @generated_colors = []</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
-          
-          
-          <code class="ruby">    # @generated_colors_intermediate = []</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="20">
-          
-          
-          <code class="ruby">    # @generated_colors_expert = []</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="21">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="20">
+          <span class="hits">4</span>
           
           <code class="ruby">    @response = []</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="covered" data-hits="4" data-linenumber="21">
+          <span class="hits">4</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">    @guess = &quot;&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="23">
+        <li class="covered" data-hits="4" data-linenumber="22">
+          <span class="hits">4</span>
           
+          <code class="ruby">    @start = Time.new</code>
+        </li>
+      
+        <li class="covered" data-hits="4" data-linenumber="23">
+          <span class="hits">4</span>
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    @count = 0</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
           
           
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="25">
+        <li class="covered" data-hits="1" data-linenumber="26">
           <span class="hits">1</span>
           
-          <code class="ruby">  def randomize_colors_beginner</code>
+          <code class="ruby">  def game_flow</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="26">
-          <span class="hits">2</span>
-          
-          <code class="ruby">    generated_colors = colors_beginner.sample(4)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="27">
+        <li class="missed" data-hits="0" data-linenumber="27">
           
           
-          <code class="ruby">    # generated_colors_beginner</code>
+          <code class="ruby">    randomize_colors_beginner</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="28">
           
           
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="29">
-          
-          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="30">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="29">
           
-          <code class="ruby">  def randomize_colors_intermediate</code>
+          
+          <code class="ruby">    puts OutputStatements.start_game_beginner</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="31">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="30">
           
-          <code class="ruby">    generated_colors = colors_intermediate.sample(5)</code>
+          
+          <code class="ruby">    @guess = gets.chomp.downcase</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="32">
+        <li class="missed" data-hits="0" data-linenumber="31">
           
           
-          <code class="ruby">    # generated_colors</code>
+          <code class="ruby">    start</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="33">
+        <li class="missed" data-hits="0" data-linenumber="32">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    until guess == generated_colors</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="34">
+        <li class="missed" data-hits="0" data-linenumber="33">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">      if guess == &quot;c&quot; || guess == &quot;cheat&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="35">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="34">
           
-          <code class="ruby">  def randomize_colors_expert</code>
+          
+          <code class="ruby">        puts &quot;#{generated_colors.join}&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="36">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="35">
           
-          <code class="ruby">    generated_colors = colors_expert.sample(6)</code>
+          
+          <code class="ruby">        @guess = gets.chomp.downcase</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="37">
+        <li class="never" data-hits="" data-linenumber="36">
           
           
-          <code class="ruby">    # generated_colors</code>
+          <code class="ruby">      elsif guess == &quot;q&quot; || guess == &quot;quit&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="37">
+          
+          
+          <code class="ruby">        quit_game</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="38">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">      elsif guess.length &lt; 4</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="39">
+        <li class="missed" data-hits="0" data-linenumber="39">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        puts &quot;Too short try again.&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="40">
+        <li class="missed" data-hits="0" data-linenumber="40">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        guess</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="41">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">      elsif guess.length &gt; 5</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="42">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="42">
           
-          <code class="ruby">  def convert_the_guess(guess)</code>
+          
+          <code class="ruby">        puts &quot;Too long try again.&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="43">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="43">
           
-          <code class="ruby">    response = guess.upcase.split(//)</code>
+          
+          <code class="ruby">        guess</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="44">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">      else</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="45">
+        <li class="missed" data-hits="0" data-linenumber="45">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        check_the_player_guess(guess)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="46">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="46">
           
-          <code class="ruby">  def check_the_player_guess(guess)</code>
+          
+          <code class="ruby">        @guess = gets.chomp.downcase</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="47">
+        <li class="never" data-hits="" data-linenumber="47">
           
           
-          <code class="ruby">    puts &quot;#{guess} has #{correct_color} of the correct elements /n with #{exact_position} colors  in the correct position&quot;</code>
+          <code class="ruby">      end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="48">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="49">
           
           
+          <code class="ruby">    # game_ended</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">  #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
+          
+          
           <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="50">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def exact_position(guess)</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="51">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    convert_the_guess(guess)</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="52">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    binding.pry</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="53">
           <span class="hits">1</span>
           
-          <code class="ruby">    (generated_colors.zip(@response).map{|x, y| x == y}).count(&quot;true&quot;)</code>
+          <code class="ruby">  def randomize_colors_beginner</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="54">
           
           
+          <code class="ruby">    </code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="55">
+          <span class="hits">5</span>
+          
+          <code class="ruby">    @generated_colors = 4.times.map{colors_beginner.sample(1)}.flatten</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="56">
+          
+          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="55">
+        <li class="never" data-hits="" data-linenumber="57">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="56">
+        <li class="never" data-hits="" data-linenumber="58">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="59">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def check_the_player_guess(guess)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="60">
+          
+          
+          <code class="ruby">    convert_the_guess(guess)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="61">
+          
+          
+          <code class="ruby">    if @response == @generated_colors</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="62">
+          
+          
+          <code class="ruby">      game_ended</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby">    else</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="64">
+          
+          
+          <code class="ruby">      puts &quot;#{guess} has #{correct_color(response)} of the correct elements with #{exact_position(response)} colors  in the correct position&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="65">
+          
+          
+          <code class="ruby">      @count += 1</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="66">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="67">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="68">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="69">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def convert_the_guess(guess)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="70">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @response = guess.upcase.split(//)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="71">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="72">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="73">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def exact_position(guess)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="74">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="75">
+          
+          
+          <code class="ruby">    (@generated_colors.zip(@response).map{|x, y| x == y}).count(true)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="76">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="77">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="78">
           <span class="hits">1</span>
           
           <code class="ruby">  def correct_color(guess)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="57">
+        <li class="never" data-hits="" data-linenumber="79">
           
           
-          <code class="ruby">    convert_the_guess</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="58">
+        <li class="covered" data-hits="1" data-linenumber="80">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    (guess &amp; generated_colors).count</code>
+          <code class="ruby">    (@response &amp; @generated_colors).count</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="59">
+        <li class="never" data-hits="" data-linenumber="81">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="60">
+        <li class="never" data-hits="" data-linenumber="82">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="61">
+        <li class="covered" data-hits="1" data-linenumber="83">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def quit_game</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="84">
+          
+          
+          <code class="ruby">    abort(&quot;Skynet has won!&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="85">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="86">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="62">
+        <li class="covered" data-hits="1" data-linenumber="87">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def finished_game(guess_count, guess, start_time)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="88">
+          
+          
+          <code class="ruby">    stop_time = Time.new</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="89">
+          
+          
+          <code class="ruby">    total_time = stop_time - start_time</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="90">
+          
+          
+          <code class="ruby">    # seconds = (Time.now - start_time).to_i</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="91">
+          
+          
+          <code class="ruby">    minutes = Time.at(total_time).utc.strftime(&quot;%M:%S&quot;).split(&quot;&quot;)[1]</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="92">
+          
+          
+          <code class="ruby">    seconds = Time.at(total_time).utc.strftime(&quot;%M:%S&quot;).split(&quot;&quot;)[3..-1].join(&quot;&quot;)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="93">
+          
+          
+          <code class="ruby">    puts &quot;Congratulations! You saved humanity!! You guessed the sequence #{guess.upcase} in #{guess_count} guesses over #{minutes} minutes and #{seconds} seconds.</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="94">
+          
+          
+          <code class="ruby">    Do you want to go to the (m)enu or (q)uit?&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="95">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="96">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="3c23a4781eda05588a1e6b0b9658ff0d68234194">
+  <div class="header">
+    <h3>lib/output_statements.rb</h3>
+    <h4><span class="red">53.33 %</span> covered</h4>
+    <div>
+      <b>15</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>7</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">module OutputStatements</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="63">
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.welcome</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="4">
+          
+          
+          <code class="ruby">    puts &quot;Welcome to the Mastermind sequence, Skynet is about to start their launch to take over of humanity,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">Would you like to (p)lay, read the (i)nstructions, or (q)uit? Help us save all of humanity!!&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.instructions</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="9">
+          
+          
+          <code class="ruby">    puts &quot;Skynet has initiated their code sequence to start their launch on the human population! They have decided</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">to give you an opportunity to stop them. They have created a sequence of colors, the length of the sequence and</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">the amount of colors to choose from will differ based on the level that you have chosen. After each guess they will</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">let you know which colors you chose correctly and which ones are in the right position. Choose wisely and save</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">all of Humanity! Would you like to (p)lay or (q)uit?&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.level_selection</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="17">
+          
+          
+          <code class="ruby">    puts &quot;Skynet has 3 different difficulties for you to try. There is (b)eginner,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">(in)ntermediate, and (e)xpert. Please make a selection, but choose wisely.&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.start_game_beginner</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="22">
+          
+          
+          <code class="ruby">    puts &quot;I have generated a beginner sequence with four elements made up of : (r)ed</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">     (g)reen, (b)lue, and(y)ellow. Use (q)uit at any time to end the game. What would you</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">     like your first guess to be?&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="27">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.start_game_intermediate</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="28">
+          
+          
+          <code class="ruby">    puts &quot;I have generated a beginner sequence with four elements made up of : (r)ed /n</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby">       (g)reen, (y)ellow, and (w)hite. Use (q)uit at any time to end the game. What would you /n</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
+          
+          
+          <code class="ruby">       like your first guess to be?&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="32">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="33">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.start_game_expert</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="34">
+          
+          
+          <code class="ruby">    puts &quot;I have generated a beginner sequence with four elements made up of : (r)ed /n</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="35">
+          
+          
+          <code class="ruby">     (g)reen, (y)ellow, (w)hite, (o)range. Use (q)uit at any time to end the game. What would you /n</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="36">
+          
+          
+          <code class="ruby">     like your first guess to be?&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="39">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.game_ended</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="40">
+          
+          
+          <code class="ruby">    puts &quot;Congratulations you have saved humanity! You completed it using only #{count} guesses in #{time}!&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="42">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="43">
           
           
           <code class="ruby">end</code>
